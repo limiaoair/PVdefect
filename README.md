@@ -3,14 +3,32 @@
 ## Network Architecture
 ![fig1.png](fig/main.png)
 
+
+## Environment Setup
+
+To reproduce the environment, make sure you have [conda](https://docs.conda.io/en/latest/) installed.
+
+```bash
+# 1. Clone this repository
+git clone https://github.com/yourname/your-repo.git
+cd your-repo
+
+# 2. Create the conda environment from the provided environment.yml
+conda env create -f environment.yml
+
+# 3. Activate the environment
+conda activate ukan
+
+# 4. (Optional) Update the environment if environment.yml changes
+conda env update -f environment.yml --prune
+
+### Datasets
+ Put the [PVEL](https://www.kaggle.com/datasets/yaozhang01182010/dataset-of-solar-cells-defect-segmentation/data)
+
 ## Results and Saliency maps
 We perform quantitative comparisons and qualitative comparisons with 6 co-SOD
 methods on 3 datasets.
 ![fig2.jpg](fig/fig-compared.png)
-
-
-### Datasets
- Put the [PVEL](https://www.kaggle.com/datasets/yaozhang01182010/dataset-of-solar-cells-defect-segmentation/data)
 
 
 ## Relevant Literature
