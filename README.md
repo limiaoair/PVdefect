@@ -21,8 +21,9 @@ conda activate ukan
 
 # 4. (Optional) Update the environment if environment.yml changes
 conda env update -f environment.yml --prune
+```
 
-### Datasets
+## Datasets
  Put the [PVEL](https://www.kaggle.com/datasets/yaozhang01182010/dataset-of-solar-cells-defect-segmentation/data)
 
 ## Results and Saliency maps
